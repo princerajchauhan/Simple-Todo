@@ -58,8 +58,8 @@ const update = () => {
 }
 
 const clearInputs = ()=>{
-    document.getElementById('title').value = " "
-    document.getElementById('description').value = " "
+    document.getElementById('title').value = ""
+    document.getElementById('description').value = ""
 }
 
 let add = document.getElementById('add')
